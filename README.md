@@ -1,5 +1,6 @@
 # 🎓 Расписание УГЛТУ
 Веб-приложение для просмотра расписания занятий Уральского государственного лесотехнического университета.
+<img width="1897" height="881" alt="image" src="https://github.com/user-attachments/assets/9d518e72-72f0-4e3a-82c1-5e4bf7290b65" />
 
 ## 🏗️ Технологический стек
 - ⚡ FastAPI – высокопроизводительный Python-фреймворк для создания API
@@ -26,26 +27,10 @@
 │   │   │   └── deps
 │   │   ├── db
 │   │   ├── domain
-│   │   │   ├── auth
-│   │   │   ├── building
-│   │   │   ├── group
-│   │   │   ├── lesson
-│   │   │   ├── room
-│   │   │   ├── student
-│   │   │   ├── subject
-│   │   │   └── teacher
+│   │   │   └──  *
 │   │   └── migration
-│   │       └── versions
 │   ├── scripts
 │   └── tests
-│       ├── auth
-│       ├── building
-│       ├── group
-│       ├── lesson
-│       ├── room
-│       ├── student
-│       ├── subject
-│       └── teacher
 └── frontend
     ├── public
     └── src
@@ -57,28 +42,7 @@
         │   └── layouts
         ├── context
         ├── features
-        │   ├── auth
-        │   │   ├── api
-        │   │   └── components
-        │   ├── group
-        │   │   ├── api
-        │   │   ├── components
-        │   │   └── types
-        │   ├── lesson
-        │   │   ├── api
-        │   │   ├── components
-        │   │   ├── types
-        │   │   └── utils
-        │   ├── room
-        │   │   ├── api
-        │   │   └── components
-        │   ├── subject
-        │   │   ├── api
-        │   │   └── components
-        │   └── teacher
-        │       ├── api
-        │       ├── components
-        │       └── types
+        │   └──  *
         ├── hooks
         ├── lib
         ├── pages
